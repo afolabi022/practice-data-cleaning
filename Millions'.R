@@ -25,6 +25,6 @@ num_million_dollar_properties <- nrow(million_dollar_properties)
 total_NAs <- sum(is.na(housing_data))
 
 # Output the result
-total_NAs
-
-
+# Remove rows with any NA values
+housing_data <- na.omit(housing_data)
+housing_data <- na.omit(housing_data)
